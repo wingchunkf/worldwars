@@ -1,0 +1,22 @@
+{
+  "name": "secret",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wingchunkf/worldwars.git"
+  },
+  "author": "Christine Bergman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wingchunkf/worldwars/issues"
+  },
+  "homepage": "https://github.com/wingchunkf/worldwars#readme",
+  "devDependencies": {
+    "animate.css": "^3.7.0"
+  }
+}

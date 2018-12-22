@@ -1,0 +1,172 @@
+body {
+  height: 100%;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #dad3c1;
+}
+
+.nav-items p {
+  padding-top: 20px;
+  font-size: 18px;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav-items p:hover {
+  opacity: 0.8;
+  transform: scale(1.2);
+  font-style: italic;
+
+}
+
+.head {
+  background: url('../img/wwiartlg.jpg') no-repeat;
+  height: 400px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+#title {
+  color: #dad3c1;
+  font-size: 70px !important;
+  letter-spacing: 1.5px;
+}
+
+.title-box {
+  background-color: #dad3c1;
+  height: 460px;
+  padding-top: 50px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ww1 {
+  height: 375px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+.ww1 p {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  background: url('../img/lozengecamo.jpg') 100% 100%;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  height: 120px;
+  padding-top: 22px;
+}
+
+.main-wrapper {
+  background: url('../img/lgmap.jpg') no-repeat 100% 100%;
+  padding-bottom: 100px;
+  opacity: 0.95;
+  z-index: 1;
+  position: relative;
+  margin-top: 50px;
+}
+
+.ww1 img {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  height: 400px;
+}
+
+img .newspaper-headline {
+  padding-bottom: 220px;
+  z-index: 999;
+  position: relative;
+}
+
+.weapons {
+  margin: 0 auto;
+  display: block;
+  width: 75%;
+}
+
+.inner-box {
+  background: white;
+  margin: 0 auto;
+  width: 80%;
+  height: 360px;
+  text-align: center;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.intro-text h4,
+.intro-text p {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 9%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+}
+
+.intro-text p {
+  padding-top: 30px;
+}
+
+.card,
+.weapon-cards {
+  border-color: transparent;
+  position: relative;
+  background: #efefef;
+  font-family: 'Open Sans', sans-serif;
+  transition: all 0.5s ease-in;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card img,
+.weapon-cards img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #efefef;
+  border: none;
+}
+
+.card-content {
+  padding: 0 0 30px;
+  background: #746b5a;
+  color: white;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.card-content h5 {
+  padding: 20px 0 20px 0;
+  background-color: #41533b;
+}
+
+.card-content h6,
+.card-content p {
+  text-align: left;
+  padding-left: 45px;
+}
+
+.my-hr {
+  background-color: white;
+  padding-top: 0;
+  margin-top: -8px;
+}
+
+.card-details {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.card-details-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
